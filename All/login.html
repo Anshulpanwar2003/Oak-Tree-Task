@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="login">
+            <h2>Login</h2>
+            <label for=""></label>
+            <input type="text" placeholder="Email" id="email" >
+            <input type="text" placeholder="Password" id="password">
+            <div class="show">
+                <div class="sq">
+                    <input type="checkbox" class="box">
+                    <h4>Show Password</h4>
+                </div>
+                
+                <a href="">Forget Password?</a>
+            </div>
+            <button onclick="myfun()">Login</button>
+            <p>Don't have an account? <span><a href="#">Sign up</a></span></p>
+        </div>
+        <div id="print"></div>
+    </div>
+
+    <script>
+    
+    const temp=[]
+    
+   
+        
+
+            function myfun()
+            {
+               
+        var a = document.getElementById('email').value
+       var b = document.getElementById('password').value
+
+    
+       temp.push({
+             email:a,
+             password:b
+         });
+       
+        
+           console.log(temp)
+
+        //    document.getElementById("print").innerHTML= "Email"+temp[temp.length-1].email
+            
+        //    document.getElementById("print").innerHTML = "password"+temp[temp.length-1].password
+
+        document.getElementById("print").innerHTML =   JSON.stringify(temp)
+     
+             document.getElementById('email').value='';
+             document.getElementById('password').value='';
+             
+             
+            }
+
+
+            
+             
+              
+
+
+    </script>
+      
+
+</body>
+</html>

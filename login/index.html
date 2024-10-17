@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://web.dev/static/articles/building/an-adaptive-favicon/image/example-dark-theme-favico-6a6f6f67bc3e7.png" type="image/x-icon"/>
+</head>
+<body>
+    <div class="login-container">
+      
+        <section class="login-header">
+            <h1>REGISTRATION</h1>
+        </section>
+        
+        <section class="login-body">
+            <div class="login-name">
+                <div class="input-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="First name" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Last name" required>
+                </div>
+            </div>
+            <div class="login-email">
+                <div class="input-group">
+                    <label for="first-email">Email</label>
+                    <input type="email" id="first-email" placeholder="Email" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="last-mobile">Mobile No.</label>
+                    <input type="text" id="last-mobile" placeholder="Mobile No." required>
+                </div>
+               
+            </div>
+            <div class="login-password">
+                 
+                <div class="input-group">
+                    <label for="first-password">Password</label>
+                    <input type="password" id="first-password" placeholder="Password" required>
+                </div>
+            
+                <div class="input-group">
+                    <label for="last-confirm">Confirm Password</label>
+                    <input type="password" id="last-confirm" placeholder="Confirm Password" required>
+                </div>
+
+            </div>
+            <div class="login-city">
+               
+                <div class="input-group">
+                    <label for="first-city">City</label>
+                    <input type="text" id="first-city" placeholder="city" required>
+                </div>
+            
+                <div class="input-group">
+                    
+                    <span>
+                        <label for="Gender" >Male</label>
+                         <input type="radio" name ='gender' value="Male">
+                         <label for="Gender">Female</label>
+                         <input type="radio" value="Female" name ='gender'>
+                         <label for="Gender">Others</label>
+                         <input type="radio"  name ='gender' value="Others">
+
+                    </span>
+                                      
+                    
+                </div>
+
+            </div>
+            
+            <div class="login-dob">
+                <div class="input-group">
+                    <label for="dob">Dob</label>
+                    <input type="date" id="Dob" placeholder="DOB" required>
+                </div>
+            
+                <div class="input-group">
+                    <select name="" id="select">
+                        <option value="">Language</option>
+                        <option value="">Hindi</option>
+                        <option value="">English</option>
+                        <option value="">French</option>
+                    </select>
+                </div>
+            </div>
+               
+            <div class="login-image">
+                <label for="">Upload Image</label>
+                <input type="file" id="image" placeholder="image">
+            </div>
+                
+            <section class="login-footer"> 
+                <button onclick="HandleSubmit()">Submit</button>
+                <button>Cancel</button>
+            </section>
+
+
+        </section>
+
+       
+       
+     
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

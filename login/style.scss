@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left,lightblue,rgb(255, 85, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // filter: blur(1px);
+    
+}
+
+.login-container{
+   padding: 1vw;
+   height: 75%;
+   width: 37%;
+   background-color: transparent;
+   display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1vw;
+   border: 1px solid black;
+   border-radius: 15px;
+   transform: translateX(30%) translateY(30%) translateZ(30%);
+   z-index: 999;
+   background-color: rgb(27, 6, 255); /* Fallback color */
+  background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+
+
+     
+   .login-header {
+         height: 7%;
+         width: 40%;
+        //  background-color: antiquewhite;
+         text-align: center;
+           margin-top: 2vw;
+            
+          
+         h1{
+            height: 100%;
+            width: 100%;
+            font-size: 1.6vw;
+            
+         }
+   }
+
+   .login-body{
+    height: 90%;
+    width: 100%;
+   
+
+     background-color: transparent;
+
+     .login-name{
+        height: 10%;
+        width: 100%;
+        
+        display: flex;
+        gap: 0.2vw;
+       
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            width: 100%; 
+            
+            input {
+                padding: 10px;
+                // border: 1px solid #ccc;
+                 background-color: transparent;
+                height: 100%;
+                width: 100%; 
+                border: none;
+                border-bottom: 1px solid black;
+            }
+            label{
+                font-size: 1vw;
+                margin-left: 0.5vw;
+            }
+        }
+     }
+
+       
+     .login-email{
+        height: 10%;
+        width: 100%;
+        margin-top: 1vw;
+        display: flex;
+        gap: 0.2vw;
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            width: 100%; 
+            
+            input {
+                padding: 10px;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                height: 100%;
+                width: 100%; 
+                border: none;
+                border-bottom: 1px solid black;
+            }
+            label{
+                font-size: 1vw;
+                margin-left: 0.5vw;
+            }
+        }
+     }
+
+
+     .login-password{
+        height: 10%;
+        width: 100%;
+        margin-top: 1vw;
+        display: flex;
+        gap: 0.2vw;
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            width: 100%; 
+            
+            input {
+                padding: 10px;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                height: 100%;
+                width: 100%; 
+                border: none;
+                border-bottom: 1px solid black;
+            }
+            label{
+                font-size: 1vw;
+                margin-left: 0.5vw;
+            }
+        }
+     }
+
+
+     .login-city{
+        height: 10%;
+        width: 100%;
+        margin-top: 1vw;
+        display: flex;
+        gap: 0.2vw;
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            width: 100%; 
+             
+            span{
+                display: flex;
+                justify-content: center;
+                margin-top: 1.5vw;
+            }
+            
+            input {
+                padding: 10px;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                height: 100%;
+                width: 100%; 
+                border: none;
+                border-bottom: 1px solid black;
+            }
+            label{
+                font-size: 1vw;
+                margin-left: 0.5vw;
+            }
+        }
+     }
+
+     .login-dob{
+        height: 10%;
+        width: 100%;
+        margin-top: 1vw;
+        display: flex;
+        gap: 0.2vw;
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            width: 100%; 
+            
+            input {
+                padding: 10px;
+                border: 1px solid #ccc;
+                background-color: transparent;
+                height: 100%;
+                width: 100%; 
+                border: none;
+                
+                border-bottom: 1px solid black;
+            }
+            label{
+                font-size: 1vw;
+                margin-left: 0.5vw;
+            }
+
+            select{
+                height: 80%;
+                width: 100%;
+                margin-top: 1vw;
+                border: none;
+                border-bottom: 1px solid black;
+                font-size: 1.01vw;
+                text-align: center;
+                background-color: transparent;
+            }
+        }
+     }
+
+     .login-image{
+        height: 10%;
+        width: 40%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 1vw;
+        gap: 0.2vw;
+        label{
+            font-size: 1vw;
+            margin-right: 6vw;
+        }
+
+        input{
+            height: 60%;
+            width: 80%;
+            background-color: transparent;
+            text-align: center;
+
+        }
+     }
+     
+     
+   .login-footer{
+    height: 10%;
+    width: 100%;
+   
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+   
+    button{
+        height: 70%;
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 1.1w;
+        font: bold;
+        background-color: transparent;
+    }
+  }
+     
+
+   }
+
+
+
+}
